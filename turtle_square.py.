@@ -1,0 +1,19 @@
+import turtle
+
+paper = turtle.Screen()
+paper.setup(400,400)
+paper.bgcolor("black")
+
+pen = turtle.Turtle()
+pen.color("white")
+pen.speed(1)
+
+pen.right(90)
+pen.forward(100)
+pen.right(90)
+pen.forward(100)
+pen.right(90)
+pen.forward(100)
+pen.right(90)
+pen.forward(100)
+turtle.done()
